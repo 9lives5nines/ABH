@@ -1,0 +1,110 @@
+div.container
+{
+
+   margin-right: auto;
+   margin-left:  auto;
+   text-align:left;
+   width: 900px;
+   background-color:#000066;
+}
+div.topheader
+{
+   text-align: center;
+   padding-top: 3px;
+   height:185px;
+   background-color:black;
+
+}
+div.subheader
+{
+   background-color:gold;
+   color:black;
+   text-align: center;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   height:20px;
+   word-spacing:40px;
+
+}
+div.center
+{
+   padding: 20px;
+   min-height:500px;
+}
+div.left
+{
+   width:140px;
+   float:left;
+   margin: 0;
+   padding: 10px;
+}
+div.right
+{
+   width:140px;
+   float:left;
+   margin: 0px;
+   padding: 10px;
+}
+div.footer
+
+div.twocol
+{
+   width: 590px;
+   float:left;
+   margin: 0;
+   padding: 10px;
+}
+body
+{
+   color:#98AFC7;
+   background-color:black;
+   text-align: center;
+   font-family: trebuchet ms;
+   background-color:black;
+   background-image:url('../images/wp.png');
+}
+
+ul.outer
+{
+   text-align:center;
+   list-style-type:none;
+   padding-left:0;
+   padding-top: 5px;
+   margin-left: 0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+   text-align:center;
+}
+td.link
+{
+   border: 2px;
+   border-style:outset;
+   padding: 3px;
+   border-color: white;
+}
+a:link{color:slategray;}
+a:visited{color:darkslateblue;}
+a:hover{color:blue;}
+a{text-decoration:none;}
+
+#main-content a:hover span{
+   top:10px;
+   left:10px;
+   width:202px;
+   padding:5px 0 5px 0;
+   text-transform:uppercase;
+}
+#main-content li{
+   width:200px;
+   border:2px solid gray;
+   background:black;
+   padding:10px;
+   text-align:center;
+   position:relative;
+   float:left;
+   display:inline;
+   margin:5px;
+}
+

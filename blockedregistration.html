@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <title>ABH: Registration</title>
+      <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+      <script src="./scripts/script.js" type="text/javascript"></script>
+   </head>
+   
+   <body>
+
+   <div class="container">
+      <div class="topheader"><img src="./images/header.jpg" style="width:900px;"/></div>
+      <div class="subheader">
+         <a href="index.html">Home</a>
+         <a href="info.html">Information</a>
+         <a href="registration.html">Registration</a>
+         <a href="contact.html" style="word-spacing:0px;">Contact & FAQ</a>
+      </div>
+
+
+      <div class="center">
+         <h4>Registration for the Amazing Bear Hunt BEGINS FEBRUARY 7,2010</h4>
+         <h4>Registration for the Amazing Bear Hunt ENDS   MARCH 22,2010</h4>
+         Make sure you read the information below carefully before signing up for a team!
+
+
+         Teams for the Amazing Bear Hunt must consist of 8-10 members. Each team will have a Captain - 
+         through which all contact between the planners and the team will occur - and a Vice Captain. 
+         Only the captain of a team will need to sign up with all the information of their teammates. 
+         If you are a Team Captain go ahead and fill out the information for each of your teammates 
+         (You will also need the contact numbers of the Captain and Vice-Captain, as well as a Team Name):<br/><br/>
+         -Name<br/>
+         -Student ID Number<br/>
+         -Unit, Building and Room Number<br/>
+         -Email Address<br/>
+         -T-Shirt Size (For the free shirts that you get!)<br/><br/>
+
+         -Please use discretion when choosing team names. Offensive or inflammatory names are subject 
+         to change. Also note, after you have registered your team, you cannot make changes. The people 
+         you register with will be the people you hunt with.<br/><br/>
+         Questions? Email them to amazingbearhunt2010@gmail.com <br /><br />
+         
+         <hr/>
+         <form action="formSub.cgi"
+               method="post" id="form" onsubmit="return validate()">
+
+         StudentID: <input type="text" size="15" name="SID1" id="SID1"><br /><br />
+         Last Name: <input type="text" size="20" name="Last1" id="Last1">
+         First Name: <input type="text" size="20" name="First1" id="First1"><br /><br />
+         Unit: <input type="text" size="3" name="U1" id="U1"> Bldg: <input type="text" size="15" name="B1"id="B1">
+         Room: <input type="text" size="20" name="R1" id="R1"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T1" id="T1"> Email: <input type="text" size="20" name="EM1" id="EM1">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID2" id="SID2"><br /><br />
+         Last Name: <input type="text" size="20" name="Last2" id="Last2"> 
+         First Name: <input type="text" size="20" name="First2" id="First2"><br /><br />
+         Unit: <input type="text" size="3" name="U2" id="U2"> Bldg: <input type="text" size="15" name="B2"id="B2">
+         Room: <input type="text" size="20" name="R2" id="R2"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T2" id="T2"> Email: <input type="text" size="20" name="EM2" id="EM2">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID3" id="SID3"><br /><br />
+         Last Name: <input type="text" size="20" name="Last3" id="Last3"> 
+         First Name: <input type="text" size="20" name="First3" id="First3"><br /><br />
+         Unit: <input type="text" size="3" name="U3" id="U3"> Bldg: <input type="text" size="15" name="B3"id="B3">
+         Room: <input type="text" size="20" name="R3" id="R3"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T3" id="T3"> Email: <input type="text" size="20" name="EM3" id="EM3">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID4" id="SID4"><br /><br />
+         Last Name: <input type="text" size="20" name="Last4" id="Last4"> 
+         First Name: <input type="text" size="20" name="First4" id="First4"><br /><br />
+         Unit: <input type="text" size="3" name="U4" id="U4"> Bldg: <input type="text" size="15" name="B4"id="B4">
+         Room: <input type="text" size="20" name="R4" id="R4"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T4" id="T4"> Email: <input type="text" size="20" name="EM4" id="EM4">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID5" id="SID5"><br /><br />
+         Last Name: <input type="text" size="20" name="Last5" id="Last5"> 
+         First Name: <input type="text" size="20" name="First5" id="First5"><br /><br />
+         Unit: <input type="text" size="3" name="U5" id="U5"> Bldg: <input type="text" size="15" name="B5"id="B5">
+         Room: <input type="text" size="20" name="R5" id="R5"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T5" id="T5"> Email: <input type="text" size="20" name="EM5" id="EM5">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID6" id="SID6"><br /><br />
+         Last Name: <input type="text" size="20" name="Last6" id="Last6"> 
+         First Name: <input type="text" size="20" name="First6" id="First6"><br /><br />
+         Unit: <input type="text" size="3" name="U6" id="U6"> Bldg: <input type="text" size="15" name="B6"id="B6">
+         Room: <input type="text" size="20" name="R6" id="R6"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T6" id="T6"> Email: <input type="text" size="20" name="EM6" id="EM6">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID7" id="SID7"><br /><br />
+         Last Name: <input type="text" size="20" name="Last7" id="Last7"> 
+         First Name: <input type="text" size="20" name="First7" id="First7"><br /><br />
+         Unit: <input type="text" size="3" name="U7" id="U7"> Bldg: <input type="text" size="15" name="B7"id="B7">
+         Room: <input type="text" size="20" name="R7" id="R7"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T7" id="T7"> Email: <input type="text" size="20" name="EM7" id="EM7">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID8" id="SID8"><br /><br />
+         Last Name: <input type="text" size="20" name="Last8" id="Last8"> 
+         First Name: <input type="text" size="20" name="First8" id="First8"><br /><br />
+         Unit: <input type="text" size="3" name="U8" id="U8"> Bldg: <input type="text" size="15" name="B8"id="B8">
+         Room: <input type="text" size="20" name="R8" id="R8"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T8" id="T8"> Email: <input type="text" size="20" name="EM8" id="EM8">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID9" id="SID9"><br /><br />
+         Last Name: <input type="text" size="20" name="Last9" id="Last9"> 
+         First Name: <input type="text" size="20" name="First9" id="First9"><br /><br />
+         Unit: <input type="text" size="3" name="U9" id="U9"> Bldg: <input type="text" size="15" name="B9"id="B9">
+         Room: <input type="text" size="20" name="R9" id="R9"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T9" id="T9"> Email: <input type="text" size="20" name="EM9" id="EM9">
+         <hr />
+         StudentID: <input type="text" size="15" name="SID10" id="SID10"><br /><br />
+         Last Name: <input type="text" size="20" name="Last10" id="Last10"> 
+         First Name: <input type="text" size="20" name="First10" id="First10"><br /><br />
+         Unit: <input type="text" size="3" name="U10" id="U10"> Bldg: <input type="text" size="15" name="B10"id="B10">
+         Room: <input type="text" size="20" name="R10" id="R10"><br /><br />
+         Shirt Size: <input type="text" size="3" name="T10" id="T10"> Email: <input type="text" size="20" name="EM10" id="EM10">
+         <hr />
+         Team Name: <input type="text" size="20" name="team" id="team"><br /><br />
+         Captain Name: <input type="text" name="cname" id="cname" size="20"><br /><br /> Captain Phone#: <input type="text" name="cp" id="cp" size="15"><br /><br />
+         Vice Captain Name: <input type="text" name="vname" id="vname" size="20"><br /><br /> Vice Captain Phone#: <input type="text" name="vp" id="vp" size="15">
+
+         <br><br>
+
+         <input type="submit" value="Email This Form">  <span id="failure"></span>
+      </form>
+      </div>
+
+   </body>
+   <!--Extra Form Area :)        
+   StudentID: <input type="text" size="15" name="SID#" id="SID#"><br /><br />
+   Last Name: <input type="text" size="20" name="Last#" id="Last#"> 
+   First Name: <input type="text" size="20" name="First#" id="First#"><br /><br />
+   Unit: <input type="text" size="3" name="U#" id="U#"> Bldg: <input type="text" size="15" name="B#"id="B#">
+   Room: <input type="text" size="20" name="R#" id="R#"><br /><br />
+   Shirt Size: <input type="text" size="3" name="T#" id="T#"> Email: <input type="text" size="20" name="EM#" id="EM#">
+   -->
+</html>
